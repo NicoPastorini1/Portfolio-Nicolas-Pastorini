@@ -1,0 +1,22 @@
+/** Estilos del nav **/
+a, a:link, a:focus, a:active, a:link{
+    color: white !important;
+    text-decoration: none !important;
+    font-family: 'Fira Code', monospace;
+    margin-left: 1rem !important;
+}
+.hash, a:hover{
+    color: var(--primery-color) !important;
+}
+.navbar{
+    background-color: var(--background-color) !important;
+    color: white;
+    justify-content: center;
+}
+/** Los elementos del nav se mantengan a la derecha**/
+.navbar-collapse{
+    flex-grow: 0;
+}
+#none{
+    display: none;
+}

@@ -1,0 +1,22 @@
+.principal{
+    justify-content: center;
+    padding: 5.4rem 0rem 5.4rem 4rem !important;
+    width: 100%
+}
+*{
+    font-family: 'Fira Code', monospace;
+    font-size: bold;
+}
+.btn-Calendly{
+    margin-top: 0.5rem;
+    border: 1px solid var(--primery-color) !important;
+    padding: 0.3rem 0.5rem 0.5rem 0.3rem;
+    width: 12rem;
+    font-size: 1rem;
+}
+/** Estilos del nav **/
+a, a:link, a:focus, a:active, a:link{
+    color: white !important;
+    text-decoration: none !important;
+    font-family: 'Fira Code', monospace;
+}

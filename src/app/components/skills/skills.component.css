@@ -1,0 +1,26 @@
+.ml-3{
+    padding-left: 3rem !important;
+}
+*{
+    font-family: 'Fira Code', monospace;
+}
+.text{
+    font-family: 'Fira Code', monospace;
+    color: #ABB2BF;
+    padding-left: 0.5rem;
+    font-size: 1rem;
+    word-break: break-all; 
+}
+.title{
+    font-weight: bold;
+    padding-left: 0.5rem;
+    font-size: 1rem;
+    word-break: break-all; 
+}
+
+.cuadro{
+    border: 1px solid var(--gray-color);
+}
+.mr-2{
+    margin-right: 0.5rem;
+}
