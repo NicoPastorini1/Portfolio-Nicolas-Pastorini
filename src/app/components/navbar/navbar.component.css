@@ -17,6 +17,9 @@ a, a:link, a:focus, a:active, a:link{
 .navbar-collapse{
     flex-grow: 0;
 }
-#none{
-    display: none;
-}
+
+@media (min-width: 1040px ) {
+    #none {
+      display: none;
+    }
+  }
