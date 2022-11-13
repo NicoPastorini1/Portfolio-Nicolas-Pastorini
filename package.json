@@ -21,8 +21,12 @@
     "@lottiefiles/lottie-player": "^1.6.0",
     "bootstrap": "^5.2.2",
     "lottie-web": "^5.9.6",
+    "ng-animate": "^2.0.1",
     "ngx-lottie": "^9.1.0",
+    "ngx-teximate": "^0.3.0",
+    "ngx-text-animation": "^1.0.2",
     "rxjs": "~7.5.0",
+    "t-writer.js": "^1.0.4",
     "tslib": "^2.3.0",
     "zone.js": "~0.11.4"
   },

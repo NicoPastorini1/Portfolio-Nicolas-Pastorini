@@ -1,7 +1,12 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ViewChild, AfterViewInit} from '@angular/core';
 import { NgModule } from '@angular/core';
 import { LottieModule } from 'ngx-lottie';
+import {TextAnimationModule} from 'ngx-text-animation';
 import { AnimationOptions } from 'ngx-lottie';
+import { Teximate, TextAnimation } from 'ngx-teximate';
+import { fadeInDown } from 'ng-animate';
+// pruebas 
+
 
 @Component({
   selector: 'app-principal',
@@ -14,15 +19,23 @@ import { AnimationOptions } from 'ngx-lottie';
       containerClass="moving-box"
       [styles]="styles"
       [options]="options"
-    ></ng-lottie>`,
-  
+    ></ng-lottie>
+    <teximate [text]="text" [enter]="enterAnimation"></teximate>`, 
 })
 
 export class PrincipalComponent implements OnInit {
 
+  text = '+1 año de experiencia como Analista de Datos y Reporting, trabajando con equipos multidisplinarios. Estudiante y Programador web, con conocimientos en Angular y Java Springboot.';
+  
+  enterAnimation: TextAnimation = {
+    animation: fadeInDown,
+    delay: 10,
+    type: 'paragraph'
+  };
   constructor() { }
 
   ngOnInit(): void {
+    
   }
 
   options: AnimationOptions = {
@@ -30,4 +43,6 @@ export class PrincipalComponent implements OnInit {
   };
   
   
+  
 }
+

@@ -20,3 +20,15 @@ a, a:link, a:focus, a:active, a:link{
     text-decoration: none !important;
     font-family: 'Fira Code', monospace;
 }
+
+/** Text animation **/
+.c2 {
+    font-weight: 200;
+    font-size: 1.8em;
+    text-transform: uppercase;
+    letter-spacing: 0.5em;
+}
+.c2 .letter {
+    display: inline-block;
+    line-height: 1em;
+}

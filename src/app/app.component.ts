@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { AfterViewInit, Component } from '@angular/core';
 import { AnimationOptions } from 'ngx-lottie'
 
 @Component({

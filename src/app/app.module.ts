@@ -2,10 +2,13 @@ import { NgModule } from '@angular/core';
 import { LottieModule } from 'ngx-lottie'; // lottie animations
 import player from 'lottie-web';
 import { BrowserModule } from '@angular/platform-browser';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { TeximateModule } from 'ngx-teximate';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { RouterModule, Routes } from '@angular/router';
+import {TextAnimationModule} from 'ngx-text-animation';
 
 //components
 import { NavbarComponent } from './components/navbar/navbar.component';
@@ -33,7 +36,10 @@ export function playerFactory()
   imports: [
     BrowserModule,
     AppRoutingModule,
-    LottieModule.forRoot({ player: playerFactory})
+    LottieModule.forRoot({ player: playerFactory}),
+    BrowserAnimationsModule,  // Add this only in the root module
+    TextAnimationModule,
+    TeximateModule
   ],
   providers: [],
   bootstrap: [AppComponent]
