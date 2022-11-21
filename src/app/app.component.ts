@@ -1,5 +1,4 @@
-import { AfterViewInit, Component } from '@angular/core';
-import { AnimationOptions } from 'ngx-lottie'
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-root',
@@ -8,8 +7,4 @@ import { AnimationOptions } from 'ngx-lottie'
 })
 export class AppComponent {
   title = 'Portfolio-NicolasPastorini';
-
-  options: AnimationOptions = {
-    path: 'https://lottiefiles.com/108681-spaceman', // download the JSON version of animation in your project directory and add the path to it like ./assets/animations/example.json
-  };
 }

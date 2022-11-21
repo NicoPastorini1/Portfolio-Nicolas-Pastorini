@@ -1,19 +1,18 @@
-<div class="fluid-container">
-    <div class="row principal">
-      <div class="col-sm-7 pt-5">
-        <div>
-                
-        </div>
-        <h2 class="tw">Soy Nico, <span class="hash">Desarrollador Full-Stack 💻</span> y <span class="hash">Consultor BI 📈 </span></h2>
-        <teximate #teximate
+<div class="grid grid-nogutter surface-section text-800 principal min-h-screen select-none">
+    <div class="col-12 md:col-8 p-6 text-center md:text-left flex align-items-center ">
+        <section>
+            <h2 class="tw">Soy Nico, <span class="hash">Desarrollador Full-Stack 💻</span> y <span class="hash">Consultor BI 📈 </span></h2>
+            <p class="mt-0 mb-4 text-700 line-height-3"><teximate #teximate
                 [text]="text"
                 [enter]="enterAnimation">
-                </teximate>
-        <button class="btn-Calendly"> <a href="https://calendly.com/nicolaspastorini14" target="blank">Agenda una reunión</a></button>
-        </div>
-        <div class="col-sm-4">
-            <!-- Lottie image traida con directiva ng-lottie -->
-            <ng-lottie height="auto" [options]="options"></ng-lottie>
-        </div>
+                </teximate></p>
+                <div class="grid">
+                    <div class="col-12 md:col-6 lg:col-4"><a href="https://calendly.com/nicolaspastorini14" target="_blank"><button pButton type="button" class="mb-2">Agenda una reunion</button></a></div>
+                    <div class="col-12 md:col-6 lg:col-3"><a href="../../../assets/Nicolas Pastorini CV.pdf" target="_blank"><button pButton type="button" class="p-button-outlined mb-2">Descargar CV</button></a> </div>
+                </div>                
+        </section>
+    </div>
+    <div class="col-12 md:col-4 overflow-hidden">
+        <ng-lottie height="500px" [options]="options"></ng-lottie>
     </div>
 </div>

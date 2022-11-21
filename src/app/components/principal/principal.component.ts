@@ -3,7 +3,7 @@ import { NgModule } from '@angular/core';
 import { LottieModule } from 'ngx-lottie';
 import {TextAnimationModule} from 'ngx-text-animation';
 import { AnimationOptions } from 'ngx-lottie';
-import { Teximate, TextAnimation } from 'ngx-teximate';
+import { TextAnimation } from 'ngx-teximate';
 import { fadeInDown } from 'ng-animate';
 // pruebas 
 

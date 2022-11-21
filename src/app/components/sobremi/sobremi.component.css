@@ -1,44 +1,17 @@
-.ml-3{
-    padding-left: 3rem !important;
-    width: 100%
-}
-.pl-7{
-    padding-left: 7rem !important;
-}
 *{
     font-family: 'Fira Code', monospace;
-    width: 100%
 }
-.text{
+.text-pink{
+    color: #C778DD;
+}
+a, a:link, a:focus, a:active, a:link{
+    color: white !important;
+    text-decoration: none !important;
     font-family: 'Fira Code', monospace;
-    color: #ABB2BF;
-    padding-left: 0.5rem;
-    font-size: 1rem;
-    word-break: break-all; 
-}
-.title{
-    padding-left: 0.5rem;
-    font-size: 1rem;
-    word-break: break-all; 
 }
 
-.cuadro{
-    border: 1px solid var(--gray-color);
-}
-.mr-2{
-    margin-right: 0.5rem;
-}
-
-.img{
-    width: 15rem;
-    height: 15rem;
-    border-radius:150px;
-}
-
-h2{
-    margin-bottom: 0px;
-    font-weight: bold;
-}
-.col1{
-    justify-content: center;
+@media (max-width: 800px) {
+    .imagen {
+      display: none !important;
+    }
 }

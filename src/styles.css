@@ -9,7 +9,11 @@
 *{
     background-color: var(--background-color);
     color: white;
+    font-family: 'Fira Code', monospace;
 }
 .hash, a:hover{
+    color: var(--primery-color) !important;
+}
+.text-pink{
     color: var(--primery-color) !important;
 }

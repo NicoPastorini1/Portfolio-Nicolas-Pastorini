@@ -1,7 +1,6 @@
 .principal{
     justify-content: center;
-    padding: 5.4rem 0rem 5.4rem 4rem !important;
-    width: 100%
+    width: 100%;
 }
 *{
     font-family: 'Fira Code', monospace;
@@ -32,3 +31,4 @@ a, a:link, a:focus, a:active, a:link{
     display: inline-block;
     line-height: 1em;
 }
+

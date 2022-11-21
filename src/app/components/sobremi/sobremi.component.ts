@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { PrimeNGConfig } from 'primeng/api';
+import {AnimateModule} from 'primeng/animate';
 
 @Component({
   selector: 'app-sobremi',
@@ -6,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./sobremi.component.css']
 })
 export class SobremiComponent implements OnInit {
-
+  
   constructor() { }
 
   ngOnInit(): void {
